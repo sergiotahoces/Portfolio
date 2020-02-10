@@ -1,5 +1,4 @@
 .carousel-inner img {
-    width: 100%;
     height: 400px;
     object-fit: cover;
 }
@@ -18,14 +17,30 @@ body {
     line-height: 1.8;
     color: #f5f6f7;
 }
+.letras{
+    font-size:5vw;
+}
+
+.marginWords {
+    color: #111;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 275px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 1;
+    text-align: center;
+}
 
 p {
     font-size: 13px;
-    font-size:2vw;
+    font-size: 3vw;
 }
 
-.margin {
-    margin-bottom: 45px;
+.img {
+    width: 70%;
+    margin: auto;
+    display: block;
+    border-radius: 5%;
 }
 
 .photo {
@@ -36,8 +51,8 @@ p {
     background-size: cover;
     height: 600px;
     align-items: center;
-
 }
+
 #ring {
     display: flex;
     padding: 100px;
@@ -45,37 +60,69 @@ p {
 
 .bg-3 {
     background: url("https://i.pinimg.com/originals/19/ef/c9/19efc993fff67c410d9b9f7d43d1fb23.jpg") center center fixed;
-
     /* White */
-    
-    
 }
-#about{
+
+#about {
     justify-content: space-around;
 }
-.progra{
+
+.progra {
     display: flex;
     flex-direction: row;
 }
+
 .personal {
     border-radius: 50%;
-    width: 220px;
-    height: 250px;
-    
+    width: 240px;
+    height: 240px;
 }
-.picture1{
+
+.picture1 {
     display: block;
     margin-left: auto;
-    margin-right: auto; 
+    margin-right: auto;
     height: 60%;
     width: 60%;
     background-size: cover;
-    
 }
-.bg-1{
-    display: flex;
-    flex-direction: column;
+
+.bg-1 {
+    display: block;
+    margin: auto;
 }
-h1{
-    font-size:4vw;
+
+h1 {
+    font-size: 4vw;
+}
+
+.card .card-title {
+    color: #000000;
+    margin-bottom: 0.625rem;
+    text-transform: capitalize;
+    font-size: 0.875rem;
+    font-weight: 500
+}
+
+.btn.btn-social-icon {
+    width: 50px;
+    height: 50px;
+    padding: 0
+}
+
+.template-demo>.btn {
+    margin-right: 0.5rem !important
+}
+
+.template-demo {
+    margin-top: 0.5rem !important
+}
+
+.btn.btn-rounded {
+    border-radius: 50px
+}
+
+.btn-outline-facebook {
+    border: 1px solid #3b579d;
+    color: #3b579d
 }
