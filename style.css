@@ -1,0 +1,81 @@
+.carousel-inner img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar {
+    margin: 0%;
+}
+
+body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+}
+
+p {
+    font-size: 13px;
+    font-size:2vw;
+}
+
+.margin {
+    margin-bottom: 45px;
+}
+
+.photo {
+    background: url("https://cdn.wallpapersafari.com/32/59/l6UJWc.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 600px;
+    align-items: center;
+
+}
+#ring {
+    display: flex;
+    padding: 100px;
+}
+
+.bg-3 {
+    background: url("https://i.pinimg.com/originals/19/ef/c9/19efc993fff67c410d9b9f7d43d1fb23.jpg") center center fixed;
+
+    /* White */
+    
+    
+}
+#about{
+    justify-content: space-around;
+}
+.progra{
+    display: flex;
+    flex-direction: row;
+}
+.personal {
+    border-radius: 50%;
+    width: 220px;
+    height: 250px;
+    
+}
+.picture1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    height: 60%;
+    width: 60%;
+    background-size: cover;
+    
+}
+.bg-1{
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    font-size:4vw;
+}
