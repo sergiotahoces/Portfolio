@@ -8,6 +8,10 @@
     flex-direction: row;
 }
 
+#social{
+    color: green;
+}
+
 .navbar {
     margin: 0%;
 }
@@ -96,14 +100,6 @@ h1 {
     font-size: 4vw;
 }
 
-.card .card-title {
-    color: #000000;
-    margin-bottom: 0.625rem;
-    text-transform: capitalize;
-    font-size: 0.875rem;
-    font-weight: 500
-}
-
 .btn.btn-social-icon {
     width: 50px;
     height: 50px;
@@ -124,5 +120,9 @@ h1 {
 
 .btn-outline-facebook {
     border: 1px solid #3b579d;
-    color: #3b579d
+    color: #3b579d;
+}
+#social{
+    background: url("https://ak3.picdn.net/shutterstock/videos/22201873/thumb/1.jpg") center center fixed;
+    opacity: 3%;
 }
